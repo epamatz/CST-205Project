@@ -1,4 +1,4 @@
-# BEESION
+# Beesion
 Our final project for CST -205
 
 
