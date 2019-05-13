@@ -1,6 +1,6 @@
 import base64
 import requests
-from time importsleep
+from time import sleep
 import os
 from flask import Flask, request, redirect, url_for, render_template
 from werkzeug import secure_filename
