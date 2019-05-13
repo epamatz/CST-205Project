@@ -13,7 +13,7 @@ img = 'gloriosa.jpg'
 imgName = 'Calla lily'
 imgName = 'Gloriosa superba'
 
-path = ' -- patht to the static folder provided -- '
+path = ' -- path to the static folder provided -- '
 
 link = imgName.replace(' ', '_')
 
