@@ -3,7 +3,7 @@ Our final project for CST -205
 
 
 ### Prerequisites
-**Run requirements.txt
+* Run requirements.txt
 
 ## Description
 
