@@ -18,9 +18,9 @@ Explain how to run the automated tests for this system
 
 ## Authors
 
-* **Jesus Caballero** - [Voraphi](https://github.com/voraphi)**
-* **Efrain Pamatz** - [Epamatz](https://github.com/EPamatz)**
-* **Miguel Espitia** -[Mikeyasdf](https://github.com/Mikeyasdf)**
+* **Jesus Caballero** - [Voraphi](https://github.com/voraphi)
+* **Efrain Pamatz** - [Epamatz](https://github.com/EPamatz)
+* **Miguel Espitia** -[Mikeyasdf](https://github.com/Mikeyasdf)
 
 
 ## License
