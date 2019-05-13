@@ -1,0 +1,71 @@
+<!doctype html>
+
+<style>
+
+.name {
+  text-align: center;
+}
+</style>
+
+<title>
+  Beesion
+</title>
+
+<h1 style="text-align:center;">
+  <br>
+    <font size="42">
+      Beesion
+    </font>
+  <br>
+  <div class="name">
+    Your flower is called: {{name}}
+  </div>
+  <br>
+</h1>
+
+<p>
+  <a style ="font-size:20px">
+    {{wiki}}
+  </a>
+  <a style="font-size:30px" href="https://en.wikipedia.org/wiki/{{link}}">
+    more info?
+</a>
+
+</p>
+
+<div class="img1">
+
+  <script>
+
+  function colorBlindBees()
+  {
+    var image = document.getElementById("colorBlindBees");
+    if (image.src.match("/static/{{ img }}")) {
+        image.src = "/static/{{ cb_img }}";
+    }
+    else if (image.src.match("/static/{{ cb_img }}")) {
+        image.src = "/static/{{ uv_img }}";
+    }
+    else {
+        image.src = "/static/{{ img }}";
+    }
+  }
+  
+  function papaya()
+  {
+      value = 'What sound are u rarded?';
+  }
+
+
+  </script>
+
+  <img id='bees' src="/static/{{ img }}" alt="No Image Available" width="400" height="400"/>
+
+  <img id="colorBlindBees" src="/static/{{ img }}" alt="No Image Available" width="400" height="400" />
+  <br><br><br>
+
+  <input type= "button" value='Become a bee!' onclick="colorBlindBees();"/>
+  <input type="button" value="listen to sound" onclick= "papaya();"/>
+
+
+</div>
