@@ -78,7 +78,7 @@ def index():
     # request_id = send_for_identificattion(img)
     # for suggestion in get_suggestions(request_id):
     #     imgName = (suggestion["plant"]["name"])
-    return(render_template('plantInfo.html', img=reg_img, cb_img=cb_image, uv_img=uv_image, wiki=wiki, link=link, name=name))
+    return(render_template('plantInfo.html', img=reg_img, cb_img=cb_image, uv_img=uv_image, wiki=wiki, link=link, name=imgName))
 
 
 if __name__ == "__main__":
