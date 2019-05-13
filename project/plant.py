@@ -33,7 +33,7 @@ cv2.imwrite(path + uv_image, uimage)
 app = Flask(__name__)
 
 
-wiki = wikipedia.summary(imgName, sentences:3)
+wiki = wikipedia.summary(imgName, sentences=3)
 
 def send_for_identificattion(file_name):
 	files_encoded = []
